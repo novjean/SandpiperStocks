@@ -96,17 +96,12 @@ dependencies {
     // Compose dependencies
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.0")
     implementation("androidx.compose.material:material-icons-extended:1.1.0")
-    implementation("com.google.accompanist:accompanist-flowlayout:0.17.0")
-    implementation("androidx.paging:paging-compose:1.0.0-alpha14")
     implementation("androidx.activity:activity-compose:1.6.0-alpha01")
     implementation("com.google.accompanist:accompanist-swiperefresh:0.24.2-alpha")
 
-    // Compose Nav Destinations
+    // Compose Nav Destinations // useful for naigation in jetpack compose
     implementation("io.github.raamcosta.compose-destinations:core:1.1.2-beta")
     ksp("io.github.raamcosta.compose-destinations:ksp:1.1.2-beta")
-
-    // coil-compose to load images remotely
-    implementation("io.coil-kt:coil-compose:2.2.2")
 
     // Dagger - Hilt
     implementation("com.google.dagger:hilt-android:2.52")
@@ -127,8 +122,5 @@ dependencies {
 
     // Kotlin Extensions and Coroutines support for Room
     implementation("androidx.room:room-ktx:2.6.1")
-
-
-
-
+    
 }
